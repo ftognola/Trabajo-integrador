@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&display=swap');;
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&display=swap');
 
 :root{
     --primary-color: rgb(207, 235, 218); 
@@ -37,23 +37,18 @@ a{
 .logo img{
     background-color: #f4f4f4;
     border-radius: 15px;
-    float: left;
 
 }
 
 
 /* Navbar */
 .navbar{
-    display: inline;
-    height: 70px;
-    padding: auto;
-    
+    display: inline;    
 }
-.navbar ul{
+.navbar-nav{
     display: flex;
 }
 .navbar a{
-    color: var(--dark-color);
     padding: 10px;
     margin: 0 5px;
 }
