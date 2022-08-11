@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;900&display=swap');;
+
+:root{
+    --primary-color: rgb(207, 235, 218); 
+    --light-color: #f4f4f4;
+    --dark-color: #333;
+  
+    /* --secondary-color: #1c3fa8;
+    
+    
+    --success-color: #5cb85c;
+    --error-color: #d9534f;
+    */
+}
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    color: var(--dark-color);
+    line-height: 1.6;
+}
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color:var(--dark-color);
+}
+/*Encabezado*/
+.encabezado{
+    background-color:var(--primary-color);
+    height: 100px;
+    
+}
+
+.logo img{
+    background-color: #f4f4f4;
+    border-radius: 15px;
+    float: left;
+
+}
+
+
+/* Navbar */
+.navbar{
+    display: inline;
+    height: 70px;
+    padding: auto;
+    
+}
+.navbar ul{
+    display: flex;
+}
+.navbar a{
+    color: var(--dark-color);
+    padding: 10px;
+    margin: 0 5px;
+}
+.navbar a:hover{
+    border-bottom: 2px var(--dark-color) solid;
+}
+.navbar .flex{
+    justify-content: space-between;
+}
+
+/*Footer*/
+
+.pie{
+    background-color: var(--primary-color);
+    justify-items: flex-end;
+}
+
+.pie a:hover{
+    border: none;
+}
