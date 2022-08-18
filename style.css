@@ -3,7 +3,7 @@
 :root{
     --primary-color: rgb(207, 235, 218); 
     --light-color: #f4f4f4;
-    --dark-color: #333;
+    --dark-color: rgb(8, 4, 4);
   
     /* --secondary-color: #1c3fa8;
     
@@ -35,9 +35,10 @@ a{
 }
 
 .logo img{
-    background-color: #f4f4f4;
-    border-radius: 15px;
-
+    display: block;
+    width: 20%;
+    height: auto;
+    border-radius: 1px bold;
 }
 
 
@@ -47,16 +48,19 @@ a{
 }
 .navbar-nav{
     display: flex;
+    color:rgb(170, 80, 80);
+    font-weight: bold;
 }
 .navbar a{
     padding: 10px;
     margin: 0 5px;
 }
-.navbar a:hover{
-    border-bottom: 2px var(--dark-color) solid;
+.nav-item {
+
 }
-.navbar .flex{
-    justify-content: space-between;
+/*Carousel*/
+.collapse{
+    width: 50;
 }
 
 /*Footer*/
